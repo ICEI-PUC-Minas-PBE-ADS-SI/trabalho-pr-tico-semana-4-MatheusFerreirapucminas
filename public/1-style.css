@@ -1,0 +1,168 @@
+/* Estrutura */
+* {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+    flex-wrap: wrap;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    height: 150px;
+    padding: 20px;
+    background-color: black;
+}
+
+main {
+    background-color: black;
+    color: white;
+    width: 70%;
+    float: left;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+aside {
+    background-color: black;
+    color: white;
+    width: 30%;
+    float: left;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    clear: both;
+    text-align: center;
+}
+
+/* Componentes Menu Principal */
+.logo {
+    border-radius: 20px;
+}
+
+.caixa-menuprincipal {
+    flex-wrap: wrap;
+    float: right;
+}
+
+.caixa-menuprincipal ul {
+    list-style-type: none;
+}
+
+.caixa-menuprincipal ul li {
+    display: inline-block;
+}
+
+.caixa-menuprincipal ul li a {
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+    background-color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.caixa-menuprincipal ul li a:hover {
+    background-color: red;
+}
+
+/* Componentes Postagem */
+.caixa-postagem {
+    position: absolute;
+    display: inline;
+}
+
+.caixa-postagem ul li {
+    padding: 8px;
+    list-style-type: none;
+}
+
+.caixa-postagem a {
+    text-decoration: none;
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.caixa-post {
+    margin-bottom: 30px;
+    clear: both;
+}
+
+.caixa-post img {
+    display: block;
+    float: left;
+    margin: 10px;
+    width: 150px;
+    border-radius: 10px;
+    max-width: 100%;
+}
+
+.caixa-post p {
+    padding: 10px;
+}
+
+.caixa-post div h4 a {
+    text-decoration: none;
+}
+
+/* Componentes Pesquisa */
+.caixa-pesquisa {
+    padding: 60px;
+}
+
+.caixa-pesquisa input {
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 40px;
+    border-color: white;
+}
+
+.caixa-pesquisa button {
+    background-color: white;
+    color: black;
+    width: 40px;
+    height: 30px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.caixa-pesquisa button:hover {
+    background-color: red;
+}
+
+/* Componentes Categoria */
+.caixa-categorias {
+    padding: 40px;
+}
+
+.caixa-categorias ul li {
+    list-style-type: none;
+    display: grid;
+    padding: 3px;
+}
+
+.caixa-categorias ul li a {
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+    background-color: white;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+.caixa-categorias ul li a:hover {
+    background-color: red;
+}

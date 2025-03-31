@@ -1,0 +1,78 @@
+/* Estrutura */
+* {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    height: 150px;
+    padding: 20px;
+    background-color: black;
+}
+
+.logo {
+    border-radius: 20px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    clear: both;
+    text-align: center;
+}
+
+/* Componentes Menu Principal */
+.caixa-menuprincipal {
+    float: right;
+    flex-wrap: wrap;
+}
+
+.caixa-menuprincipal ul {
+    list-style-type: none;
+}
+
+.caixa-menuprincipal ul li {
+    display: inline-block;
+}
+
+.caixa-menuprincipal ul li a {
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+    background-color: white;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.caixa-menuprincipal ul li a:hover {
+    background-color: red;
+}
+
+/* Organização dos sites de curiosidades */
+.caixa-iframe {
+    padding: 10px;
+}
+
+.caixa-iframe li {
+    display: inline-block;
+}
+
+.caixa-iframe li a {
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.caixa-iframe li a:hover {
+    background-color: red;
+}
