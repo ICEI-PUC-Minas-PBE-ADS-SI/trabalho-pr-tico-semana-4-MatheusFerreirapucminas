@@ -8,15 +8,17 @@ Nessa atividade,vamos evoluir o projeto para que a home-page funcione bem tanto 
 
 ## Informações Gerais
 
-- Nome:
-- Matricula:
-- Proposta de projeto escolhida:
-- Breve descrição sobre seu projeto:
+- Nome: Matheus Henrique Borges Ferreira
+- Matricula: 881020
+- Proposta de projeto escolhida: Catálogo de Filmes
+- Breve descrição sobre seu projeto: Desenvolvimento de duas formas do site, uma através de um CSS puro, adaptável a outros dispositivos e rico em informação, na segunda forma, algo mais simples, porém chamativo, com um carrossel centralizado, convidando o usuário para uma "noite de pipoca"!
 
 ## Print da versão responsiva com CSS puro
 
 <<  COLOQUE A IMAGEM AQUI >>
+![alt text](<CSS puro.jpeg>)
 
 ## Print da versão responsiva com Bootstrap
 
 <<  COLOQUE A IMAGEM AQUI >>
+![alt text](Bootstrap.jpeg)
